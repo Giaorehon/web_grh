@@ -29,7 +29,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <div className="bg-green-700 text-white py-12">
+    <div className="bg-[#6DD19C] text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat) => (

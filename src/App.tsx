@@ -62,7 +62,7 @@ function App() {
         </div>
       </main>
 
-      <footer className="bg-orange-500 text-white py-8">
+      <footer className="bg-[#6DD19C] text-white py-8">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
