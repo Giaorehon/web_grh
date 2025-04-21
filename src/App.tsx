@@ -77,6 +77,10 @@ function App() {
                 Email: cskh@giaorehon.vn<br />
                 Hotline: 0356954034
               </p>
+              <a href='./privacy.tsx' className='privacy'>
+                <p>Chính sách bảo mật</p>
+                </a>
+              
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Theo dõi chúng tôi</h3>
