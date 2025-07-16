@@ -9,6 +9,7 @@ export default function Footer() {
           <a href="main.tsx" className="logo">
           <img src="/logo_trang.png" alt="Giao Rẻ Hơn"></img>
             </a>
+            <p>Giấy chứng nhận đăng ký doanh nghiệp số 0318758109, cấp ngày 22/11/2024 bởi Sở Tài Chính Thành Phố Hồ Chí Minh</p>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Liên hệ</h3>
@@ -33,7 +34,7 @@ export default function Footer() {
             <span>•</span>
             <a href="/terms" className="hover:text-white">Điều khoản sử dụng</a>
             <span>•</span>
-            <a href="/payment-policy" className="hover:text-white">Chính sách thanh toán</a>
+            <a href="/payment-policy" className="hover:text-white">Hóa đơn điện tử</a>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ const banners = [
   },
   {
     id: 2,
-    image: "/banner2.png",
+    image: "/Banner_01.png",
     alt: "Express Delivery"
   },  // {
   //   id: 3,
@@ -39,7 +39,7 @@ export default function Banner() {
               <img
                 src={banner.image}
                 alt={banner.alt}
-                className="w-full h-[300px] md:h-[810px] object-cover brightness-75"
+                className="w-full h-[300px] md:h-[850px] object-cover brightness-75"
               />
               {/* <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center text-white">

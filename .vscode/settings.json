@@ -1,0 +1,5 @@
+{
+    "python.terminal.shellIntegration.enabled": true,
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.suggest.enabled": true
+}

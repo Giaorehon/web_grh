@@ -6,7 +6,8 @@ import ServiceGrid from './components/ServiceGrid';
 import Stats from './components/Stats';
 import Footer from './components/Footer';
 import PrivacyPolicy from './components/PrivacyPolicy';
-
+import GeneralTerm from './components/GeneralTerm';
+import PaymentPolicy from './components/PaymentPolicy';
 
 function App() {
   // Simple route handling
@@ -16,10 +17,10 @@ function App() {
     switch (path) {
       case '/privacy-policy':
         return <PrivacyPolicy />;
-      // case '/terms':
-      //   return <Terms />;
-      // case '/payment-policy':
-      //   return <PaymentPolicy />;
+      case '/terms':
+        return <GeneralTerm />;
+      case '/payment-policy':
+        return <PaymentPolicy />;
       default:
         return (
           <>
@@ -78,12 +79,14 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen flex flex-col bg-gray-50">
       <Header />
-      <main>
+      <main className="flex-grow">
         {renderContent()}
       </main>
-      <Footer />
+  <Footer />
+
+    
     </div>
   );
 }
